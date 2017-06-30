@@ -1,6 +1,10 @@
 class ProductsController < ApplicationController
   def index
-    @products = Product.all
+    @products = Product.where(nil)
+    @products = @products.alphabetical if request.original_fullpath == "/products.name"
+    @products = @products.high_price if request.original_fullpath == "/products.spendy"
+    @products = @products.low_price if request.original_fullpath == "/products.cheap"
+    @products = @products.recent if request.original_fullpath == "/products.recent"
   end
 
   def list

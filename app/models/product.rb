@@ -6,6 +6,12 @@ class Product < ApplicationRecord
   before_save(:upcase)
 
   scope :recent_creations, -> { order(created_at: :desc).limit(3) }
+  scope :recent, -> { order(created_at: :desc) }  
+  scope :alphabetical, -> { order(name: :asc) }
+  scope :high_price, -> { order(cost: :desc) }
+  scope :low_price, -> { order(cost: :asc) }
+
+
 
   scope :most_reviews, -> {(
     select('products.*, count(reviews.id) as reviews_count')
