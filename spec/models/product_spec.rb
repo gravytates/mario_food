@@ -8,16 +8,16 @@ describe Product do
   it { should have_many :reviews }
 
   describe "#titlecase" do
-    it("titlecases the title of the recipe") do
-      store = Product.create!({name: "salt", image: "png", cost: "5", country_origin: "USA"})
-      expect(store.name).to eq("Salt")
+    it("titlecases the name of the product") do
+      product = Product.create!({name: "salt", image: "png", cost: "5", country_origin: "USA"})
+      expect(product.name).to eq("Salt")
     end
   end
 
   describe "#upcase" do
-    it("titlecases the title of the recipe") do
-      store = Product.create!({name: "salt", image: "png", cost: "5", country_origin: "usa"})
-      expect(store.country_origin).to eq("USA")
+    it("titlecases the name of the product") do
+      product = Product.create!({name: "salt", image: "png", cost: "5", country_origin: "usa"})
+      expect(product.country_origin).to eq("USA")
     end
   end
 

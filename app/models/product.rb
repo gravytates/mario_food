@@ -17,8 +17,6 @@ class Product < ApplicationRecord
 
   scope :usa, -> { where(country_origin: "USA")}
 
-  scope :search, -> (name_parameter) { where(name: name_parameter) }
-
   def average_rating
     average = 0
     total = 0
