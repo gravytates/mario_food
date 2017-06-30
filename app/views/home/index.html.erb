@@ -1,19 +1,33 @@
 <h3 id=home_title>Sup Babes</h3>
-<div class="scopes">
-  <h4>Most Reviewed Product: </h4>
-  <% @products.most_reviews.each do |product|%>
-    <p><%= link_to product.name, product_path(product)  %>, Reviews: <%= product.reviews.length %>, Average Rating: <%= product.average_rating %></p>
-  <% end %>
+<div class="row">
+  <div class="col-md-6">
+    <div class="scopes">
+      <div class="well">
+        <h4>Most Reviewed Product: </h4>
+        <% @products.most_reviews.each do |product|%>
+          <p><%= link_to product.name, product_path(product)  %>, Reviews: <%= product.reviews.length %>, Price $<%= product.cost %></p>
+        <% end %>
+      </div>
 
-  <h4>Recently Added Products: </h4>
-  <% @products.recent_creations.each do |product|%>
-  <p><%= link_to product.name, product_path(product)  %>, Reviews: <%= product.reviews.length %>, Average Rating: <%= product.average_rating %> </p>
-  <% end %>
-</div>
+      <div class="well">
+        <h4>Recently Added Products: </h4>
+        <% @products.recent_creations.each do |product|%>
+        <p><%= link_to product.name, product_path(product)  %>, Price $<%= product.cost %> </p>
+        <% end %>
+      </div>
+    </div>
+  </div>
 
-<div class="usa_box">
-  <h4>Products Made in the USA: </h4>
-  <% @products.usa.each do |product|%>
-  <p><%= link_to product.name, product_path(product)  %>, Reviews: <%= product.reviews.length %>, Average Rating: <%= product.average_rating %> </p>
-  <% end %>
+
+
+  <div class="col-md-6">
+    <div class="usa_box">
+      <div class="well">
+        <h4>Products Made in the USA: </h4>
+        <% @products.usa.each do |product|%>
+        <p><%= link_to product.name, product_path(product)  %>, Price $<%= product.cost %> </p>
+        <% end %>
+      </div>
+    </div>
+  </div>
 </div>

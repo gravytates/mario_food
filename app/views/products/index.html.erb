@@ -5,7 +5,7 @@
 
 <ul>
   <% @products.each do |product| %>
-    <p><%= link_to product.name, product_path(product) %>, Reviews: <%= product.reviews.length %>, Average Rating: <%= product.average_rating %> </p>
+    <p><%= link_to product.name, product_path(product) %>, Reviews: <%= product.reviews.length %>, Price $<%= product.cost %>, Average Rating: <%= product.average_rating %> </p>
     <hr>
   <% end %>
 </ul>
