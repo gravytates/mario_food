@@ -7,6 +7,10 @@ class ProductsController < ApplicationController
     # @products = @products.most_reviews if request.original_fullpath == "/products.reviews"
   end
 
+  def list
+    @products = Product.all
+  end
+
   def show
     @product = Product.find(params[:id])
   end
