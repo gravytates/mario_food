@@ -10,6 +10,7 @@
 
 <hr>
 
+<p><%= link_to "New Review", new_product_review_path(@product) %></p>
 <h3>Reviews:</h3>
 <% if @product.reviews.any? %>
   <h4>Here are the reviews for this product:</h4>
@@ -25,5 +26,3 @@
 <% else %>
   <p>There are no reviews yet!</p>
 <% end %>
-
-<p><%= link_to "New Review", new_product_review_path(@product) %></p>

@@ -10,10 +10,7 @@
 
   <body>
     <nav class="overlay-menu">
-      <ul>
-        <li><a><%= link_to 'Home', root_path %></li>
-        <li><%= link_to 'Products', products_path %></li>
-      </ul>
+      <p><a><%= link_to 'Home', root_path %> | <%= link_to 'Products', products_path %></p>
     </nav>
     <div class="container">
       <%= flash[:alert] %>

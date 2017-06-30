@@ -21,9 +21,9 @@ class Product < ApplicationRecord
     total = 0
     if self.reviews.length != 0
       self.reviews.each { |review| total += review.rating }
-      average = total / self.reviews.length
+      (total.round(1) / self.reviews.length.round(1)).round(1)
     else
-      average
+      average.to_f
     end
   end
 end
