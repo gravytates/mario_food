@@ -1,5 +1,5 @@
 class Product < ApplicationRecord
-  validates :name, :country_origin, :image, presence: true
+  validates :name, :country_origin, :image, :cost, presence: true
   has_many :reviews, dependent: :destroy
 
   scope :alphabetical, -> { order(name: :asc) }
@@ -14,7 +14,6 @@ class Product < ApplicationRecord
     )}
 
   scope :usa, -> { where(country_origin: "USA")}
-
 
   def average_rating
     average = 0
