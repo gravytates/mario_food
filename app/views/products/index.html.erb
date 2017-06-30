@@ -18,7 +18,11 @@
           <td><h4><em><%= link_to product.name, product_path(product) %></em></h4></td>
           <td><%= product.reviews.length %></td>
           <td>$<%= product.cost %></td>
-          <td><%= product.average_rating %></td>
+          <td>
+            <% product.average_rating.round.times do %>
+              <%= image_tag("avo.png", :alt => "avocado rating", :id => "rating_icon") %>
+            <%end%>
+          </td>
         </tr>
       <% end %>
     </tbody>
