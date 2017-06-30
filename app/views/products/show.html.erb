@@ -2,9 +2,11 @@
 <h4>Made in: <%= @product.country_origin %></h4>
 <h4>Average User Rating: <%= @product.average_rating %></h4>
 
-
-
-
+<hr>
+<p><%= link_to "Edit", edit_product_path(@product) %></p>
+<p><%= link_to "Delete", product_path(@product),
+                         :data => {:confirm => "You sure?",
+                                   :method => "delete"} %></p>
 
 <hr>
 
