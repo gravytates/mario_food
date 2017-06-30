@@ -9,10 +9,11 @@ class Product < ApplicationRecord
     select('products.*, count(reviews.id) as reviews_count')
     .joins(:reviews)
     .group("products.id")
-    binding.pry
     .order('reviews_count DESC')
     .limit(1)
     )}
+
+  scope :usa, -> { where(country_origin: "USA")}
 
 
   def average_rating
