@@ -6,4 +6,12 @@ describe Product do
   it { should validate_presence_of :image }
   it { should validate_presence_of :cost }
   it { should have_many :reviews }
+
+  describe "#titlecase" do
+    it("titlecases the title of the recipe") do
+      store = Product.create!({name: "salt", image: "png", cost: "5", country_origin: "USA"})
+      expect(store.name).to eq("Salt")
+    end
+  end
+
 end

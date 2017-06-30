@@ -2,6 +2,7 @@ class Product < ApplicationRecord
   validates :name, :country_origin, :image, :cost, presence: true
   validates :cost, numericality: true
   has_many :reviews, dependent: :destroy
+  before_save(:titlecase)
 
   scope :alphabetical, -> { order(name: :asc) }
   scope :recent_creations, -> { order(created_at: :desc).limit(3) }
@@ -27,5 +28,13 @@ class Product < ApplicationRecord
     else
       average.to_f
     end
+  end
+
+private
+  def titlecase
+    new_name = self.name.split(' ')
+      .each{|word| word.capitalize! }
+      .join(' ')
+    self.name = new_name
   end
 end
