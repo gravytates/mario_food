@@ -37,5 +37,4 @@ describe Review do
     review = product.reviews.create({author: "a", content_body: "a" * 200, rating: 0 })
     expect(review.save).to eq(false)
   end
-
 end
