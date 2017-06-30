@@ -3,9 +3,23 @@
 <%= link_to "New Product", new_product_path %>
 <hr>
 
-<ul>
-  <% @products.each do |product| %>
-    <p><%= link_to product.name, product_path(product) %>, Reviews: <%= product.reviews.length %>, Price $<%= product.cost %>, Average Rating: <%= product.average_rating %> </p>
-    <hr>
-  <% end %>
-</ul>
+<table class="table">
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Reviews</th>
+        <th>Price</th>
+        <th>Average Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @products.each do |product| %>
+        <tr>
+          <td><h4><em><%= link_to product.name, product_path(product) %></em></h4></td>
+          <td><%= product.reviews.length %></td>
+          <td>$<%= product.cost %></td>
+          <td><%= product.average_rating %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
