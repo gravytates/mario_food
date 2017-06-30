@@ -16,10 +16,11 @@ class Product < ApplicationRecord
   def average_rating
     average = 0
     total = 0
-    if self.reviews != 0
+    if self.reviews.length != 0
       self.reviews.each { |review| total += review.rating }
       average = total / self.reviews.length
+    else
+      average
     end
-    average
   end
 end

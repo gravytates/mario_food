@@ -1,8 +1,11 @@
 <h3>Sup babes</h3>
 
+<%= link_to "New Product", new_product_path %>
+<hr>
 
 <ul>
   <% @products.each do |product| %>
-    <li><%= link_to product.name, product_path(product) %>, Reviews: <%= product.reviews.length %>, Average Rating: <%= product.average_rating %> </li>
+    <p><%= link_to product.name, product_path(product) %>, Reviews: <%= product.reviews.length %>, Average Rating: <%= product.average_rating %> </p>
+    <hr>
   <% end %>
 </ul>
