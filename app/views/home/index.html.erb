@@ -1,6 +1,11 @@
 <h3>Sup Babes</h3>
-<ul>
-  <% @products.each do |product| %>
-    <li><%= product.name %></li>
-  <% end %>
-</ul>
+
+<h4>Most Reviewed Product: </h4>
+<% @products.most_reviews.each do |product|%>
+  <p><%= link_to product.name, product_path(product)  %>, Reviews: <%= product.reviews.length %></p>
+<% end %>
+
+<h4>Recently Added Products: </h4>
+<% @products.recent_creations.each do |product|%>
+<p><%= link_to product.name, product_path(product)  %>, Reviews: <%= product.reviews.length %> </p>
+<% end %>

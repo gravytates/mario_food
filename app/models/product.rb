@@ -3,13 +3,15 @@ class Product < ApplicationRecord
   has_many :reviews, dependent: :destroy
 
   scope :alphabetical, -> { order(name: :asc) }
-  scope :creation, -> { order(created_at: :desc) }
+  scope :recent_creations, -> { order(created_at: :desc).limit(3) }
 
   scope :most_reviews, -> {(
     select('products.*, count(reviews.id) as reviews_count')
     .joins(:reviews)
     .group("products.id")
+    binding.pry
     .order('reviews_count DESC')
+    .limit(1)
     )}
 
 
