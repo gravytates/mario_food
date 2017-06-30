@@ -15,6 +15,11 @@
         <p><%= link_to product.name, product_path(product)  %>, Price $<%= product.cost %> </p>
         <% end %>
       </div>
+
+      <div class="well">
+        <h4>Highest Rated Product: </h4>
+        <%= @products.first.highest_rating.name %>
+      </div>
     </div>
   </div>
 

@@ -5,7 +5,6 @@ class Product < ApplicationRecord
   before_save(:titlecase)
   before_save(:upcase)
 
-  scope :alphabetical, -> { order(name: :asc) }
   scope :recent_creations, -> { order(created_at: :desc).limit(3) }
 
   scope :most_reviews, -> {(
