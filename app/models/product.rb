@@ -3,6 +3,7 @@ class Product < ApplicationRecord
   validates :cost, numericality: true
   has_many :reviews, dependent: :destroy
   before_save(:titlecase)
+  before_save(:upcase)
 
   scope :alphabetical, -> { order(name: :asc) }
   scope :recent_creations, -> { order(created_at: :desc).limit(3) }
@@ -36,5 +37,9 @@ private
       .each{|word| word.capitalize! }
       .join(' ')
     self.name = new_name
+  end
+
+  def upcase
+    new_country = self.country_origin.upcase!
   end
 end

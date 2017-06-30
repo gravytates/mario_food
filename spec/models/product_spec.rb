@@ -14,4 +14,12 @@ describe Product do
     end
   end
 
+  describe "#upcase" do
+    it("titlecases the title of the recipe") do
+      store = Product.create!({name: "salt", image: "png", cost: "5", country_origin: "usa"})
+      expect(store.country_origin).to eq("USA")
+    end
+  end
+
+
 end
