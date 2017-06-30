@@ -1,0 +1,25 @@
+<h2><em><%= @product.name %></em></h2>
+<h4>Made in: <%= @product.country_origin %></h4>
+<h4>Average User Rating: <%= @product.average_rating %></h4>
+
+
+
+
+<hr>
+
+<h3>Reviews:</h3>
+<% if @product.reviews.any? %>
+  <h4>Here are the reviews for this product:</h4>
+
+  <ul>
+    <% @product.reviews.each do |review| %>
+      <h4>Author: <%= review.author %></h4>
+      <h4>Rating: <%= review.rating %></h4>
+      <p><%= review.content_body %></p>
+    <% end %>
+  </ul>
+<% else %>
+  <p>There are no reviews yet!</p>
+<% end %>
+
+<p><%= link_to "New Review", new_product_review_path(@product) %></p>
