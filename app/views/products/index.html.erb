@@ -1,10 +1,10 @@
-<h3>Sup babes</h3>
+<h3>Product List</h3>
 
-<%= link_to "New Product", new_product_path %>
-<%= link_to "Alphabetically", products_path(:name) %>
-<%= link_to "Highest Priced", products_path(:spendy) %>
-<%= link_to "Lowest Priced", products_path(:cheap) %>
+<%= link_to "Alphabetically", products_path(:name) %> |
+<%= link_to "Highest Priced", products_path(:spendy) %> |
+<%= link_to "Lowest Priced", products_path(:cheap) %> |
 <%= link_to "Recent", products_path(:recent) %>
+<h5><%= link_to "New Product", new_product_path %></h5>
 <hr>
 
 <table class="table">
