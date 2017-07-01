@@ -69,7 +69,7 @@ This application includes both Unit and User Integration testing.  It primarily 
 
 ### Product Page and Reviews
 
-![reviews](https://user-images.githubusercontent.com/25161777/27757929-c46dadf8-5dbd-11e7-8d28-405df128b878.png)
+![details and reviews](https://user-images.githubusercontent.com/25161777/27758307-c1bde656-5dc5-11e7-8321-ef32fa952dab.png)
 
 
 ## Authors
