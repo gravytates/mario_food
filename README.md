@@ -3,7 +3,7 @@
 ![screenshot1](https://user-images.githubusercontent.com/25161777/27757919-84fb754c-5dbd-11e7-9f44-f092722b293e.png)
 
 
-This a website for Mario's customers to view his products. Featuring custom scopes, callbacks, validations, and seeded with the chuck norris quotes as told by superheroes via the faker gem, this site is well suited to show off all of Marios potential products and allows customers to interact via writing reviews and rating the products themselves.
+This is a website for Mario's customers to view his products. Featuring custom scopes, callbacks, validations, and seeded with the chuck norris quotes as told by superheroes via the faker gem, this site is well suited to show off all of Marios potential products and allows customers to interact via writing reviews and rating the products themselves.
 
 ### Prerequisites
 
