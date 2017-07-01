@@ -8,14 +8,14 @@
 Product.destroy_all
 
 25.times do |index|
-  product = Product.create!(name: Faker::Food.unique.ingredient, image: "http://www.fillmurray.com/200/300", cost: Faker::Commerce.price, country_origin: "USA")
+  product = Product.create!(name: Faker::Food.unique.ingredient, image: "http://www.fillmurray.com/g/300/300", cost: Faker::Commerce.price, country_origin: "USA")
   5.times do |index|
     product.reviews.create!(author: Faker::Superhero.name, content_body: Faker::ChuckNorris.fact, rating: Faker::Number.between(1, 5))
   end
 end
 
 25.times do |index|
-  product = Product.create!(name: Faker::Food.unique.ingredient, image: "http://www.fillmurray.com/200/300", cost: Faker::Commerce.price, country_origin: "Canada")
+  product = Product.create!(name: Faker::Food.unique.ingredient, image: "http://www.fillmurray.com/300/300", cost: Faker::Commerce.price, country_origin: "Canada")
   5.times do |index|
     product.reviews.create!(author: Faker::Superhero.name, content_body: Faker::ChuckNorris.fact, rating: Faker::Number.between(1, 5))
   end
