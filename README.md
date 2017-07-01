@@ -1,6 +1,7 @@
 # Mario's Specialty Food Products
 
-![homepage](screenshot1.png)
+![screenshot1](https://user-images.githubusercontent.com/25161777/27757919-84fb754c-5dbd-11e7-9f44-f092722b293e.png)
+
 
 This a website for Mario's customers to view his products. Featuring custom scopes, callbacks, validations, and seeded with the chuck norris quotes as told by superheroes via the faker gem, this site is well suited to show off all of Marios potential products and allows customers to interact via writing reviews and rating the products themselves.
 
@@ -56,15 +57,18 @@ This application includes both Unit and User Integration testing.  It primarily 
 
 ### Home
 
-![home](screenshot2.png)
+![home](https://user-images.githubusercontent.com/25161777/27757923-a58cb6e0-5dbd-11e7-8211-a24fe617b5a7.png)
+
 
 ### Products
 
-![products](screenshot3.png)
+![products](https://user-images.githubusercontent.com/25161777/27757927-b408a4ea-5dbd-11e7-9157-f210765dfddb.png)
+
 
 ### Product Page and Reviews
 
-![reviews](screenshot4.png)
+![reviews](https://user-images.githubusercontent.com/25161777/27757929-c46dadf8-5dbd-11e7-8d28-405df128b878.png)
+
 
 ## Authors
 
