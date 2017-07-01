@@ -2,6 +2,7 @@
 <h3>Price $<%= @product.cost %></h3>
 <h4>Made in: <%= @product.country_origin %></h4>
 <h4>Average User Rating: <%= @product.average_rating %> Avocados</h4>
+<!-- <img class="product_img" src="#{@product.image}" alt="product pic"> -->
 <%= image_tag("#{@product.image}", :alt => "avocado rating", :class => "product_img") %>
 
 <hr>
