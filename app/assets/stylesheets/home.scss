@@ -6,12 +6,13 @@ body, html {
 #jumbo {
 text-align: center;
 background: rgba(255,255,255,0.0);
-color: white;
+color: rgb(163, 236, 255);
+font-size: 6em;
 margin-bottom: 0;
 }
 
 #background {
-  background-image: url('background.jpeg');
+  background-image: url('background2.jpeg');
   position: relative;
   opacity: 0.9;
   background-attachment: fixed;
@@ -27,10 +28,21 @@ margin-bottom: 0;
 
 .overlay-menu {
   text-align: center;
+  padding-top: 2%;
+  z-index: 1;
+  a {
+    color: black;
+  }
 }
 
 #rating_icon {
   // float: right;
   height: 30px;
   width: auto;
+}
+
+#mario {
+  font-size: 2em;
+  padding-top: 35%;
+  font-family: 'Pacifico', cursive;
 }
