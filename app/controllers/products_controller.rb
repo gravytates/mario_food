@@ -1,4 +1,6 @@
 class ProductsController < ApplicationController
+  before_action :authorize, only: [:new, :create]
+
   def index
     @products = Product.where(nil)
     @products = @products.alphabetical if request.original_fullpath == "/products.name"
