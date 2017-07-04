@@ -5,7 +5,7 @@
 
 [Visit the site!](https://marios-food-products.herokuapp.com/)
 
-This is a website for Mario's customers to view his products. Featuring custom scopes, callbacks, validations, and seeded with the chuck norris quotes as told by superheroes via the faker gem, this site is well suited to show off all of Marios potential products and allows customers to interact via writing reviews and rating the products themselves.
+This is a website for Mario's customers to view his products. Built for the Rails week one independent project, Mario's site features bcrypt authentication to add/edit/delete products and reviews, custom scopes, callbacks, simpleNav, factory girl, and validations. The database is seeded with the chuck norris quotes written by superheroes via the faker gem. This site is well suited to show off all of Mario's potential products and allows customers with authenticated profiles to interact via writing reviews and rating the products themselves.
 
 ### Prerequisites
 

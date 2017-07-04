@@ -30,7 +30,6 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'faker'
-gem "rb-fsevent", "~> 0.9.0"
 
 gem 'rails_12factor', group: :production
 # Use Redis adapter to run Action Cable in production
@@ -49,8 +48,8 @@ group :development, :test do
   gem 'pry'
   gem 'shoulda-matchers'
   gem 'capybara'
-  gem 'factory_girl_rails'
   gem 'simplecov', require: false
+  gem 'factory_girl_rails'
 end
 
 group :development do

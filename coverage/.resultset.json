@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/mario_food/spec/features/add_edit_delete_product_pages_spec.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/spec/features/add_edit_delete_product_pages_spec.rb": [
         1,
         null,
         1,
@@ -93,7 +93,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/spec/rails_helper.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -160,14 +160,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/config/environment.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/mario_food/config/application.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/application.rb": [
         1,
         null,
         1,
@@ -200,12 +200,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/config/boot.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/mario_food/config/environments/test.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/environments/test.rb": [
         1,
         null,
         null,
@@ -249,7 +249,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/config/initializers/application_controller_renderer.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -257,7 +257,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/config/initializers/assets.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -273,7 +273,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/config/initializers/backtrace_silencers.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -282,20 +282,20 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/config/initializers/cookies_serializer.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/initializers/cookies_serializer.rb": [
         null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/Guest/Desktop/mario_food/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/mario_food/config/initializers/inflections.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/gradyshelton/Desktop/mario_food/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -313,13 +313,13 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/config/initializers/mime_types.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/config/initializers/wrap_parameters.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -335,19 +335,19 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/channels/application_cable/channel.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/channels/application_cable/channel.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/channels/application_cable/connection.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/channels/application_cable/connection.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/controllers/application_controller.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/controllers/application_controller.rb": [
         1,
         1,
         1,
@@ -366,18 +366,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/helpers/application_helper.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/controllers/home_controller.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/controllers/home_controller.rb": [
         1,
         1,
         31,
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/controllers/products_controller.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/controllers/products_controller.rb": [
         1,
         1,
         null,
@@ -438,7 +438,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/controllers/reviews_controller.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/controllers/reviews_controller.rb": [
         1,
         1,
         null,
@@ -465,7 +465,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/controllers/sessions_controller.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/controllers/sessions_controller.rb": [
         1,
         1,
         2,
@@ -486,7 +486,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/controllers/users_controller.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/controllers/users_controller.rb": [
         1,
         null,
         1,
@@ -512,22 +512,22 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/jobs/application_job.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/jobs/application_job.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/mailers/application_mailer.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/mailers/application_mailer.rb": [
         1,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/mario_food/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/models/product.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/gradyshelton/Desktop/mario_food/app/models/product.rb": [
         1,
         1,
         1,
@@ -577,7 +577,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/models/review.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/models/review.rb": [
         1,
         1,
         1,
@@ -595,7 +595,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/app/models/user.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/app/models/user.rb": [
         1,
         1,
         1,
@@ -617,7 +617,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/spec/factories.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/spec/factories.rb": [
         1,
         1,
         1,
@@ -627,7 +627,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/config/routes.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/config/routes.rb": [
         1,
         null,
         1,
@@ -643,7 +643,7 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/spec/features/add_reviews_pages_spec.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/spec/features/add_reviews_pages_spec.rb": [
         1,
         null,
         1,
@@ -671,120 +671,6 @@
         1,
         1,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/mario_food/spec/features/sign_in_pages_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/mario_food/spec/features/view_products_pages_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/mario_food/spec/features/visit_product_details_pages_spec.rb": [
-        1,
-        null,
         1,
         1,
         1,
@@ -802,7 +688,121 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/spec/models/product_spec.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/spec/features/sign_in_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/gradyshelton/Desktop/mario_food/spec/features/view_products_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/gradyshelton/Desktop/mario_food/spec/features/visit_product_details_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/gradyshelton/Desktop/mario_food/spec/models/product_spec.rb": [
         1,
         null,
         1,
@@ -829,7 +829,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/mario_food/spec/models/review_spec.rb": [
+      "/Users/gradyshelton/Desktop/mario_food/spec/models/review_spec.rb": [
         1,
         null,
         1,
@@ -872,6 +872,6 @@
         null
       ]
     },
-    "timestamp": 1499132826
+    "timestamp": 1499192459
   }
 }
