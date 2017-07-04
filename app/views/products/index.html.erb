@@ -1,9 +1,9 @@
 <h3>Product List</h3>
 
-<%= link_to "Alphabetically", products_path(:name) %> |
-<%= link_to "Highest Priced", products_path(:spendy) %> |
-<%= link_to "Lowest Priced", products_path(:cheap) %> |
-<%= link_to "Recent", products_path(:recent) %>
+<%= link_to "Alphabetically", :sort_by => 'alphabetical' %> |
+<%= link_to "Highest Priced", :sort_by => 'high_price' %> |
+<%= link_to "Lowest Priced", :sort_by => 'low_price' %> |
+<%= link_to "Recent", :sort_by => 'recent' %>
 <h5><%= link_to "New Product", new_product_path %></h5>
 <hr>
 

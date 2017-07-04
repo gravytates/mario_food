@@ -1,16 +1,15 @@
 class ProductsController < ApplicationController
-  before_action :authorize, only: [:new, :create]
+  before_action :authorize, except: [:index, :show]
 
   def index
-    @products = Product.where(nil)
-    @products = @products.alphabetical if request.original_fullpath == "/products.name"
-    @products = @products.high_price if request.original_fullpath == "/products.spendy"
-    @products = @products.low_price if request.original_fullpath == "/products.cheap"
-    @products = @products.recent if request.original_fullpath == "/products.recent"
-  end
-
-  def list
-    @products = Product.all
+    if params[:sort_by] == nil
+      @products = Product.alphabetical
+    else
+      @products = Product.send(params[:sort_by])
+      if Product.send(params[:sort_by]) == []
+        flash[:alert] = "No results returned.  Choose another filter!"
+      end
+    end
   end
 
   def show
