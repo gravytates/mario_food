@@ -59,12 +59,12 @@ This application includes both Unit and User Integration testing.  It primarily 
 
 ### Home
 
-![home](https://user-images.githubusercontent.com/25161777/27757923-a58cb6e0-5dbd-11e7-8211-a24fe617b5a7.png)
+![home](https://user-images.githubusercontent.com/25161777/27840153-a1180420-60ab-11e7-8a5a-55c6752fb68a.png)
 
 
 ### Products
 
-![products](https://user-images.githubusercontent.com/25161777/27757927-b408a4ea-5dbd-11e7-9157-f210765dfddb.png)
+![products](https://user-images.githubusercontent.com/25161777/27840164-b336349c-60ab-11e7-8327-3a5b44d87fb1.png)
 
 
 ### Product Page and Reviews
