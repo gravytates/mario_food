@@ -9,15 +9,15 @@ describe Product do
 
   describe "#titlecase" do
     it("titlecases the name of the product") do
-      product = Product.create!({name: "salt", image: "png", cost: "5", country_origin: "USA"})
-      expect(product.name).to eq("Salt")
+      product = FactoryGirl.create(:product)
+      expect(product.name).to eq("Salsa")
     end
   end
 
   describe "#upcase" do
     it("titlecases the name of the product") do
-      product = Product.create!({name: "salt", image: "png", cost: "5", country_origin: "usa"})
-      expect(product.country_origin).to eq("USA")
+      product = FactoryGirl.create(:product)
+      expect(product.country_origin).to eq("CANADA")
     end
   end
 
