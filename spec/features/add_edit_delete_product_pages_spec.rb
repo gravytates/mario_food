@@ -2,6 +2,13 @@ require 'rails_helper'
 
 describe "add, edit and delete a product" do
   it "will add a product and successfully redirect" do
+    visit root_path
+    click_link("Sign up")
+    fill_in "user_email", with: "christ@god.com"
+    fill_in("user_password", with: "123456")
+    fill_in("user_password_confirmation", with: "123456")
+    click_button("Sign Up")
+    expect(page).to have_content("You've successfully signed up!")
     visit products_path
     click_on "New Product"
     fill_in "Name", :with => 'Salsa'
@@ -13,6 +20,13 @@ describe "add, edit and delete a product" do
   end
 
   it 'will delete a product and successfully redirect' do
+    visit root_path
+    click_link("Sign up")
+    fill_in "user_email", with: "christ@god.com"
+    fill_in("user_password", with: "123456")
+    fill_in("user_password_confirmation", with: "123456")
+    click_button("Sign Up")
+    expect(page).to have_content("You've successfully signed up!")
     visit products_path
     click_on "New Product"
     fill_in "Name", :with => 'Salsa'
@@ -26,6 +40,13 @@ describe "add, edit and delete a product" do
   end
 
   it 'will delete a product and successfully redirect' do
+    visit root_path
+    click_link("Sign up")
+    fill_in "user_email", with: "christ@god.com"
+    fill_in("user_password", with: "123456")
+    fill_in("user_password_confirmation", with: "123456")
+    click_button("Sign Up")
+    expect(page).to have_content("You've successfully signed up!")
     visit products_path
     click_on "New Product"
     fill_in "Name", :with => 'Salsa'
